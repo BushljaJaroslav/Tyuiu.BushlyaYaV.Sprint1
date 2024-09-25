@@ -1,5 +1,6 @@
-﻿using Tyuiu.BushlyaYaV.Sprint1.Task0.V30.Lib;
-namespace Tyuiu.BushlyaYaV.Sprint1.Task0.V30
+﻿
+using Tyuiu.BushlyaYaV.Sprint1.Task1.V6.Lib;
+namespace Tyuiu.BushlyaYaV.Sprint1.Task1.V6
 {
     internal class Program
     {
@@ -10,7 +11,7 @@ namespace Tyuiu.BushlyaYaV.Sprint1.Task0.V30
             Console.Title = "Спринт 1 | Выполнил: Бушля Я. В. | ИСНТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Организация ввода\\вывода                                         *");
+            Console.WriteLine("* Тема: Организация ввода\\вывода                                          *");
             Console.WriteLine("* в консольных приложениях                                                *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
@@ -25,11 +26,11 @@ namespace Tyuiu.BushlyaYaV.Sprint1.Task0.V30
             Console.WriteLine("***************************************************************************");
 
             double x, y;
-            
-            Console.WriteLine("Введите значение X:"));
+
+            Console.WriteLine("Введите значение X:");
             x = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение Y:"));
+            Console.WriteLine("Введите значение Y:");
             y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
@@ -39,8 +40,6 @@ namespace Tyuiu.BushlyaYaV.Sprint1.Task0.V30
             Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadLine();
-
-
         }
     }
 }

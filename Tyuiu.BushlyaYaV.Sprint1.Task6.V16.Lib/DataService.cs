@@ -7,15 +7,7 @@ namespace Tyuiu.BushlyaYaV.Sprint1.Task6.V16.Lib
     {
         public bool CheckSpecSymbols(string value)
         {
-            string mystring = Console.ReadLine();
-            if (mystring.Contains('?') || mystring.Contains('!'))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return value.Contains('!') && value.Contains('?');
         }
     }
 }

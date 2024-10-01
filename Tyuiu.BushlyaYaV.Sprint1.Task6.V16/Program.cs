@@ -24,20 +24,24 @@ namespace Tyuiu.BushlyaYaV.Sprint1.Task6.V16
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите строку:");
+
+            Console.WriteLine("Введите строку");
+
             string str = Console.ReadLine();
+
+
+
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            if (str.Contains('?') && str.Contains('!'))
-            {
-                Console.WriteLine("Символы '?' и '!' содержатся в строке.");
-            }
-            else
-            {
-                Console.WriteLine("Символы '?' и '!' не содержатся в строке.");
-            }
+
+
+
+
+            Console.WriteLine(ds.CheckSpecSymbols(str));
+
             Console.ReadLine();
         }
     }
